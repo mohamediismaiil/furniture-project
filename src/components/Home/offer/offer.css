@@ -1,0 +1,36 @@
+
+.offers{
+    margin: 250px auto;
+}
+
+.offer__text{
+    background-image: url('../../../assets/images/offers.png');
+    background-size:100% 100%;
+    width:auto;
+    height: 20rem;
+    background-repeat: no-repeat;
+}
+.offer__content{
+    padding:5%;
+}
+
+
+.offer__text{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.btn__explore{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn__explore:hover{
+    background-color: rgb(110, 65, 53);
+        transition: .9s;
+}

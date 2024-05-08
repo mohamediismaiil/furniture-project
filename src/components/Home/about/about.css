@@ -1,0 +1,22 @@
+.website__info{
+    background-color:#F2E8DE ;
+    height:20rem ;
+    position: relative;
+    color: black;
+    top: -5rem;
+    font-size: .9rem;
+    z-index: -1;
+}
+
+.cont{
+    position: relative;
+    bottom: -50px;
+}
+
+.small{
+    font-size: .7rem;
+    color: gray;
+}
+
+
+

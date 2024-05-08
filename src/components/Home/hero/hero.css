@@ -1,0 +1,145 @@
+
+
+
+.hero__section{
+    background-image: url('../../../assets/images/Hero Image.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    z-index: 1;
+}
+
+.move {
+    position: relative;
+    top: 3rem;
+    margin-top: 1rem;
+    animation: moveUpDown 4s infinite alternate;
+}
+
+@keyframes moveUpDown {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+
+
+.hero__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.container-fluid .navbar-brand{
+    color: black;
+    font-size: 30px;
+}
+
+.container-fluid .navbar-brand span {
+    color: black;
+    font-size: 30px;
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+.container-fluid .nav-item .nav-link  {
+    color: black;
+    font-weight: 400;
+}
+
+.container-fluid .nav-item .nav-link:hover{
+    color: rgb(110, 65, 53);
+        transition: .9s;
+}
+
+
+.search__input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+
+
+
+.search__input::placeholder{
+    font-size: 12px;
+    color: black;
+    padding-left: 5px ;
+}
+
+
+.registration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.registration a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.registration .sign {
+    border-left: 1px solid black;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30%;
+    width: 60%;
+}
+
+.subtitle {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(110, 65, 53);
+}
+
+.btn a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn a:hover {
+    text-decoration: none;
+    background-color:  rgb(110, 65, 53);;
+    color: white;
+    font-weight: 400;
+    transition: .9s;
+}

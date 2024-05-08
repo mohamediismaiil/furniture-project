@@ -1,0 +1,63 @@
+.countDown{
+    height: auto;
+    width: 80%;
+    margin: 150px auto;
+    border-radius: 10px;
+}
+
+.count__img {
+    height: 400px;
+    padding: 0;
+}
+
+.count__img img{
+    width: 100%;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.count__content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBF7F4;
+    border-radius: 10px;
+    padding: 75px;
+}
+
+.discount__disc{
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+.time__card{
+    margin: 0 5px;
+    text-align: center;
+}
+
+.number{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.shop__btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(176, 139, 84, 0.789);
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.shop__btn:hover{
+    background-color: rgba(176, 139, 84, 0.991);
+    transition: .9s;
+}

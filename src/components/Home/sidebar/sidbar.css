@@ -1,0 +1,31 @@
+.sidbar__icon {
+    position: fixed;
+    left: 30px;
+    cursor: pointer;
+    top: 50%;
+    font-size: 35px;
+    color: black;
+
+}
+
+
+.close__icon {
+    color: black;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+
+.sidebar__styles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    transition: left 0.3s ease;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    z-index: 1100;
+}

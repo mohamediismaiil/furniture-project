@@ -1,0 +1,51 @@
+.sidbar__icon {
+    position: fixed;
+    left: 30px;
+    cursor: pointer;
+    top: 50%;
+    font-size: 35px;
+    color: black;
+
+}
+
+.move {
+    position: relative;
+    left: -45rem;
+    animation: moveUpDown 3s infinite alternate;
+    /* استخدام الرسومات البيانية moveUpDown لمدة 3 ثواني بشكل متناوب مع تكرار للأبد */
+}
+
+@keyframes moveUpDown {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -20px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.close__icon {
+    color: black;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+
+.sidebar__styles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    transition: left 0.3s ease;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    z-index: 1100;
+}

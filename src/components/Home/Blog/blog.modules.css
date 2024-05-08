@@ -1,0 +1,11 @@
+.card__blog{
+    background-color: rgba(124, 118, 111, 0.072);
+    height: 30rem;
+    width: 28rem;
+    margin:  auto ;
+}
+
+.light{
+    font-size: 14px;
+    color: gray;
+}

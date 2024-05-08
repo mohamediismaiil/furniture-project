@@ -1,0 +1,30 @@
+.News__letter{
+    margin: 200px auto;
+}
+
+.join{
+    padding: .5rem .5rem;
+    border-radius: 5px;
+    background-color: #D3B393;
+    color: white;
+}
+
+
+.email{
+    background-color: #FBF7F4;
+    border: .5px solid rgba(128, 128, 128, 0.276);
+    width: 20rem;
+    padding:5px 10px ;
+    border-radius: 10px;
+}
+.email::placeholder{
+    color: #947D66;
+    padding: .5rem ;
+    font-size: 14px;
+}
+
+.lighter{
+    font-size: 14px;
+    color: #947D66;
+    text-align: center;
+}

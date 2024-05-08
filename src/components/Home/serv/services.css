@@ -1,0 +1,13 @@
+.text-secondary{
+    font-size: 14px;
+}
+
+.services{
+    margin: 10rem auto;
+}
+
+.sec__title{
+    color:rgba(128, 128, 128, 0.508) ;
+    font-size: 2.5rem !important;
+    margin-bottom: 50px;
+}
