@@ -1,6 +1,6 @@
 import React from 'react'
-import visa1 from "../../../assets/images/c4.png"
-import visa2 from "../../../assets/images/c5.png"
+import visa1 from "../../assets/images/c4.png"
+import visa2 from "../../assets/images/c5.png"
 
 
 const Footer = () => {

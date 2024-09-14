@@ -1,5 +1,6 @@
 import React ,{useState} from 'react'
 import "./nav.css"
+import {useNavigate} from "react-router-dom";
 
 
 const Sidebar = () => {
@@ -10,6 +11,7 @@ const Sidebar = () => {
   }
     
   const [shop, setShop] = useState(false)
+  const navigate = useNavigate();
   const shopHandler = () => {
     return setShop(!shop)
   }
@@ -28,7 +30,7 @@ const Sidebar = () => {
             <ul class="list-unstyled text-black">
               
         <li class=" mt-5">
-          <a class=" text-decoration-none text-black" aria-current="page" href="home">HOME</a>
+          <a class=" text-decoration-none text-black" aria-current="page" onClick={()=> navigate('/')}>HOME</a>
               </li>
 
               <li class="  me-4 mt-4 ">
@@ -58,7 +60,7 @@ const Sidebar = () => {
               </li>
 
         <li class=" mt-5">
-          <a class=" text-decoration-none" href="services">ABOUT US</a>
+          <a class=" text-decoration-none" onClick={()=> navigate('/about')}>ABOUT US</a>
               </li>
 
         <li class=" mt-5">
@@ -95,7 +97,8 @@ const Navbar = () => {
 
 
 
-  const [shop, setShop] = useState(false)
+  const [shop, setShop] = useState(false);
+    const navigate = useNavigate();
   const shopHandler = () => {
     return setShop(!shop)
   }
@@ -113,12 +116,12 @@ const Navbar = () => {
 
         <div className=' navbar '>
           
-        <a class="text-decoration-none text-black fs-2 mb-1" href="home"><span className='me-1 mt-1 fw-bold fs-2'>F</span>urniZen</a>
+        <a class="text-decoration-none text-black fs-2 mb-1" onClick={()=> navigate('/')}><span className='me-1 mt-1 fw-bold fs-2'>F</span>urniZen</a>
         <div className="links  ms-5  ">
             <ul class="list-unstyled d-flex">
               
         <li class="nav-item me-4 mt-4">
-          <a class="nav-link " aria-current="page" href="home">HOME</a>
+          <a class="nav-link " aria-current="page" onClick={()=> navigate('/')}>HOME</a>
               </li>
 
         <li class="nav-item  me-4 mt-4 ">
@@ -133,7 +136,7 @@ const Navbar = () => {
               </li>
 
         <li class="nav-item me-4 mt-4">
-          <a class="nav-link" href="../../aboutPage">ABOUT US</a>
+          <a class="nav-link" onClick={()=> navigate('/about')}>ABOUT US</a>
               </li>
 
               <li class="nav-item me-4 mt-4">

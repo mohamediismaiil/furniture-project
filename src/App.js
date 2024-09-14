@@ -2,14 +2,10 @@ import React from 'react'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/HomePage/Home";
+import Footer from "./components/Footer/Footer";
 
-import Footer from './components/Home/footer/Footer';
-
-
-
-import Navbar from './components/Home/Navbar/Navbar';
-import Home from './components/Home/Home';
-import AboutPage from './components/aboutPage/AboutPage';
 
 
 const App = () => {

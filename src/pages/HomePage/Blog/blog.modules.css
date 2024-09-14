@@ -1,3 +1,8 @@
+
+.blog__sec{
+    margin: 15rem auto;
+}
+
 .card__blog{
     background-color: rgba(124, 118, 111, 0.072);
     height: 30rem;

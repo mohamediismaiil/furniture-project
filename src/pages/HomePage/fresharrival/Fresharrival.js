@@ -8,7 +8,7 @@ import "./FreshArrival.modules.css"
 
 const Fresharrival = () => {
   return (
-      <div className='freshArr'>
+      <div className='freshArr '>
           <div className=' d-flex container justify-content-around align-items-center  '>
               <div className='text__content'>
                   <h3 className='text-uppercase '>Fresh arrival</h3>
